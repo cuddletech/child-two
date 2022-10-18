@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=`cat version`
+echo ${VERSION} > version
 cat >index.html <<EOF
 <html>
 <head>
